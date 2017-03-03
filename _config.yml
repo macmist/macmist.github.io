@@ -1,3 +1,23 @@
-theme: jekyll-theme-tactile
-title: Welcome to my website
-description: This is where the good work is.
+---
+title:
+  en: My awesome website
+  fr: Mon super site
+email: quentin.musy@gmail.com
+description:
+  en: 'Cool description'
+  fr: 'Super description'
+index:
+  en:
+  fr: accueil.html
+
+baseurl: ''
+github_username: macmist
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
+include:
+- _pages
